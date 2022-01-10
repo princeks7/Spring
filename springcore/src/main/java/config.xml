@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    
+<!--  As a arttibute   <bean class="com.springcore.Student" name="student1">
+  <property name="studentId">
+  <value>22344</value>
+  </property>
+  
+  <property name="studentName">
+  <value>Prince</value>
+  </property>
+  
+  <property name="studentAddress">
+  <value>Kolkata</value>
+  </property>  
+  
+  </bean>  -->
+  
+  
+ <!--values as a attribute  -->
+ <!--   <bean class="com.springcore.Student" name="student1">
+  <property name="studentId" value="23545" />
+  
+  <property name="studentName" value="Aman" />
+  
+  <property name="studentAddress" value="delhi" />
+  
+  </bean>
+  
+    <bean class="com.springcore.Student" name="student2">
+  <property name="studentId" value="23545" />
+  
+  <property name="studentName" value="Gaman" />
+  
+  <property name="studentAddress" value="deddlhi" />
+  
+  </bean>
+  
+  -->
+  
+  <!-- p schema -->
+  
+  <bean class="com.springcore.Student" name="student1" p:studentId="21245" p:studentName="Ram Sing" p:studentAddress="Delhi" ></bean>
+  
+  <bean class="com.springcore.Student" name="student2" p:studentId="212435" p:studentName="Shayam Sing" p:studentAddress="New-Delhi" ></bean>
+  
+  
+  
+  
+  
+  
+</beans>
+
+ 

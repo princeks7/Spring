@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    
+<!--  As a arttibute   <bean class="com.springcore.Student" name="student1">
+  <property name="studentId">
+  <value>22344</value>
+  </property>
+  
+  <property name="studentName">
+  <value>Prince</value>
+  </property>
+  
+  <property name="studentAddress">
+  <value>Kolkata</value>
+  </property>  
+  
+  </bean>  -->
+  
+  
+ <!--values as a attribute  -->
+ <!--   <bean class="com.springcore.Student" name="student1">
+  <property name="studentId" value="23545" />
+  
+  <property name="studentName" value="Aman" />
+  
+  <property name="studentAddress" value="delhi" />
+  
+  </bean>
+  
+    <bean class="com.springcore.Student" name="student2">
+  <property name="studentId" value="23545" />
+  
+  <property name="studentName" value="Gaman" />
+  
+  <property name="studentAddress" value="deddlhi" />
+  
+  </bean>
+  
+  -->
+  
+  <!-- p schema -->
+  
+  
+<bean name="Emp1" class="com.springcore.collection.Emp">
+  <property name="name" value="Radhe"/>
+  <property name="phones">
+    <list>
+           <value>725584566</value>
+           <value>54564644</value>
+           <value>24555</value>
+    
+    </list>
+  </property>
+  
+  <property name="addresses">
+     <set>
+           <value>Delhi</value>
+           <value>Kilkata</value>
+           <value>loucknow</value>
+     
+     
+     </set>
+  </property>
+  
+  <property name="courses">
+     <map>
+        <entry key="java" value="2mount"/>
+        <entry key="python"  value="1mounths"></entry>
+     </map>
+  </property>
+</bean>  
+  
+  
+  
+  
+</beans>
+
+ 
